@@ -32,5 +32,3 @@ const demo = useContext(TestContext);
 3. Provider & Consumer
    1. xxx.Provider: 表示数据的生产者，用value来指定Context中存储的数据。这样，该组件所有的子组件中都可以通过Context来访问指定的数据
    2. 当通过context访问数据时，内部的组件会读取离它最近的provider中的数据（由近到远）；如果provider中没有value，那就读取context中的默认数据
-
-1. 
